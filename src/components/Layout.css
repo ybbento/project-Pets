@@ -1,0 +1,29 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 0 16px 0 16px;
+	background-color: blueviolet;
+}
+ul {
+	list-style-type: none;
+}
+
+.menu-link {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	padding-right: 8px;
+}
+
+.menu-link:hover {
+	color: white;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}

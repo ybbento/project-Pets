@@ -1,0 +1,24 @@
+.loginform {
+	max-width: 250px;
+	padding-top: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #b794f4;
+	padding: 18px;
+}
+label {
+	padding-bottom: 8px;
+	padding-right: 8px;
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+input {
+	border-radius: 3px;
+	width: 200px;
+}
+button {
+	align-items: center;
+}
