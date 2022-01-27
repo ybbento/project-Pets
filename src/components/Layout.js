@@ -1,18 +1,27 @@
 import { Link, Outlet } from "react-router-dom";
 import AuthStatus from "./AuthStatus";
+import "./Layout.css";
 
 function Layout() {
 	return (
 		<div>
-			<AuthStatus />
-			<ul>
-				<li>
-					<Link to="/">Home Page</Link>
-				</li>
-				<li>
-					<Link to="/pets/CreatePet"> Create a Pet</Link>
-				</li>
-			</ul>
+			<header>
+				<ul className="menu">
+					<li>
+						<Link to="/" className="menu-link">
+							Home Page
+						</Link>
+					</li>
+					<li>
+						<Link to="/pets/CreatePet" className="menu-link">
+							{" "}
+							Create a Pet
+						</Link>
+					</li>
+				</ul>
+
+				<AuthStatus />
+			</header>
 
 			<Outlet />
 		</div>

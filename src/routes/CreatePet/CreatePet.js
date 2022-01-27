@@ -1,5 +1,5 @@
 import "./CreatePet.css";
-import { createPet } from "../services/pets";
+import { createPet } from "../../services/pets";
 
 function CreatePet() {
 	const handleSubmit = async (event) => {
@@ -40,14 +40,14 @@ function CreatePet() {
 					Raça: <input type="text" name="breed" />
 				</label>
 				<label>
-					Idade: <input type="number" name="age" />
+					Idade: <input type="number" name="age" className="input-age" />
 				</label>
 
 				<label htmlFor="species">
 					Espécie:
 					<select name="species">
-						<option value="cat">Gato</option>
-						<option value="dog">Cachorro</option>
+						<option value="Gato">Gato</option>
+						<option value="Cachorro">Cachorro</option>
 					</select>
 				</label>
 				<label htmlFor="gender">
@@ -57,9 +57,7 @@ function CreatePet() {
 						<option value="female">Fêmea</option>
 					</select>
 				</label>
-				<label>
-					Tutor: <input type="text" name="tutor" />
-				</label>
+
 				<label>
 					Url: <input type="text" name="url" />
 				</label>

@@ -1,0 +1,17 @@
+.pets {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.pet-image {
+	width: 300px;
+	height: 200px;
+	padding-right: 16px;
+	border-radius: 5px;
+}
+
+span {
+	font-weight: bold;
+	padding-right: 4px;
+}
